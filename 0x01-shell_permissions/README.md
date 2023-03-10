@@ -8,9 +8,5 @@
 |<code>5-execute</code>| Adds execute permission to the owner of the file <code>hello</code>|
 |<code>6-multiple_permissions</code>| Adds execute permission to the owner and the group owner, and read permission to other users, to the file <code>hello</code>|
 |<code>7-everybody</cpde>| Adds execution permission to the owner, the group owner and the other users, to the file <code>hello</code>|
-|<code>8-James_Bond</code>| Write a script that sets the permission to the file <code>hello</code> as follows:
-<li>Owner: no permission at all
-Group: no permission at all
-Other users: all the permissions</li>
-|<code>9-John_Doe</code>| Write a script that sets the mode of the file <code>hello</code> to this:
-* -rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello
+|<code>8-James_Bond</code>| Write a script that sets the permission to the file <code>hello</code> as follows: <code>"Owner: no permission at all", "Group: no permission at all", "Other users: all the permissions"</code>
+|<code>9-John_Doe</code>| Write a script that sets the mode of the file <code>hello</code> to this: <code>-rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello </code>
